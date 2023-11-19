@@ -133,7 +133,7 @@ margin: 0 auto;
 .page-header-container{
     display:flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
+    
 }
 
 .page-navigation{
@@ -143,18 +143,18 @@ margin: 0 auto;
 
 .menu{
     display: flex;
+    gap:40px;
 }
 
-.menu:not(:nth-last-child){
-   margin-right: 40px;
-}
 
 .list-address{
     display: flex;
+    gap: 40px;
 }
 
-.list-address:not(:nth-last-child){
-    margin-right: 40px;
+
+.page-header{
+border-bottom: 1px solid #e7e9fc;
 }
 
 /*========/HEADER STYLES=======*/
@@ -359,6 +359,10 @@ width: calc((100% - 72px) / 4);
 .section-portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.section-portfolio{
+    padding: 120px 0 120px 0;
 }
 
 
